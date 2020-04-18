@@ -1,0 +1,245 @@
+settings:
+  general:
+    jail-time: 300
+    spawn: 'world@0@4@0'
+    leave: 'world@0@4@0'
+    world:
+      name: 'treasure'
+      x:
+        min: -2000
+        max: 4000
+      z:
+        min: -2000
+        max: 4000
+    book:
+      title: '&6Tesouro Lv.&f{level}'
+      author: '&6ServidoresNoxus'
+      page: '&7Cordenadas:
+      {n}
+      &6X: {x}
+      {n}
+      &6Y: 4
+      {n}
+      &6Z: {z}
+      {n}
+      &0Use &a/tesouro caçar &0para caçar o tesouro!
+      {n}
+      &4[PVP ON]'
+  bosses:
+    BOSS-TREASURE-1:
+      entity: ZOMBIE
+      displayName: '&6&lBOSS LV.&f{level}'
+      damage: 5
+      health: 1500 # vida do boss
+      speed: 1 # level de speed
+  treasures:
+    '1':
+      level: 1
+      boss: BOSS-TREASURE-1 # aqui é o boss que você configurou na aba boss
+      chance: 30
+      mcmmo: 10
+      items:
+        '1':
+          material: 310
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8,thorns:8
+          glow: false
+          lore: ''
+        '2':
+          material: 311
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8,thorns:8
+          glow: false
+          lore: ''
+        '3':
+          material: 312
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8,thorns:8
+          glow: false
+          lore: ''
+        '4':
+          material: 313
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8,thorns:8
+          glow: false
+          lore: ''
+        '5':
+          material: 310
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7,thorns:7
+          glow: false
+          lore: ''
+        '6':
+          material: 311
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7,thorns:7
+          glow: false
+          lore: ''
+        '7':
+          material: 312
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7,thorns:7
+          glow: false
+          lore: ''
+        '8':
+          material: 313
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7,thorns:7
+          glow: false
+          lore: ''
+        '9':
+          material: 310
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8
+          glow: false
+          lore: ''
+        '10':
+          material: 311
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8
+          glow: false
+          lore: ''
+        '11':
+          material: 312
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8
+          glow: false
+          lore: ''
+        '12':
+          material: 313
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:8,unbreaking:8
+          glow: false
+          lore: ''
+        '13':
+          material: 310
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7
+          glow: false
+          lore: ''
+        '14':
+          material: 311
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7
+          glow: false
+          lore: ''
+        '15':
+          material: 312
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7
+          glow: false
+          lore: ''
+        '16':
+          material: 313
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: protection:7,unbreaking:7
+          glow: false
+          lore: ''
+        '17':
+          material: 276
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: sharpness:6,unbreaking:6,fire_aspect:6
+          glow: false
+          lore: ''
+        '18':
+          material: 278
+          displayName: ''
+          amount: 1
+          chance: 100
+          enchants: efficiency:6,unbreaking:6,fortune:3
+          glow: false
+          lore: ''
+        '20':
+          material: 384
+          displayName: ''
+          amount: 2
+          chance: 100
+          enchants: none
+          glow: false
+          lore: ''
+        '21':
+          material: 339
+          displayName: '&610 De cash'
+          amount: 1
+          chance: 100
+          enchants: none
+          glow: true
+          lore: ''
+        '22':
+          material: 52
+          displayName: '&6Give Gerador'
+          amount: 1
+          chance: 100
+          enchants: none
+          glow: true
+          lore:
+            - '&7Tipo &6Zombie'
+            - ''
+            - '&7Clique para ganhar o spawner'
+        '23':
+          material: 131
+          displayName: '&6Key Basica'
+          amount: 1
+          chance: 100
+          enchants: none
+          glow: false
+          lore:
+            - '&8Utilize na /warp caixas'
+        '24':
+          material: '322:1'
+          displayName: ''
+          amount: 2
+          chance: 100
+          enchants: none
+          glow: false
+          lore: ''
+        '25':
+          material: 57
+          displayName: ''
+          amount: 2
+          chance: 100
+          enchants: none
+          glow: false
+          lore: ''
+        '26':
+          material: 385
+          displayName: '&4Fragmento de boss lvl.&f1'
+          amount: 1
+          chance: 100
+          enchants: none
+          glow: false
+          lore: ''
